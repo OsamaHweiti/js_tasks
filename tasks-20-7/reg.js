@@ -66,7 +66,7 @@ function checker() {
    
           
             if (!mobileNumberRegex.test(mobileNumber)) {
-                console.log('Mobile number should contain exactly 10 digits.');
+                console.log('Mobile number should contain 10 digits.');
                 return false;
             }
        
